@@ -1,0 +1,99 @@
+body{
+   margin: 0px;
+   padding: 20px;
+   background-color: rgb(17, 209, 135);
+   color: black;
+   text-align: center;
+}
+.topic{
+   margin: 10px;
+   padding: 5px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color:rgba(169, 224, 15, 0.842);
+}
+.spn{
+   color: rgb(76, 139, 34);
+   font-size: 2.25rem;
+}
+.des{
+   margin: 20px;
+   font-size: 2rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.inp{
+   width: 600px;
+   height: 50px;
+   border-radius: 15px;
+   background-color: rgb(28, 168, 145);
+   border: 4px solid rgb(36, 141, 41); 
+   color: rgb(46, 42, 44);
+   background: transparent;
+   box-sizing: border-box;
+   font-size: 1em;
+   font-weight: bolder;
+}
+input[type=text]:focus{
+   border-color: aqua;
+   box-shadow: 0 0 8px 0 dodgerBlue;
+}
+::-webkit-input-placeholder{
+   color: rgb(24, 134, 10);
+   font-size: 1rem;
+   position: absolute;
+}
+.inp:focus{
+   outline: none;
+}
+
+.labelline{
+    position: absolute;
+    font-size: 1em;
+
+    }
+
+.btnInput{
+   margin: 1rem;
+   width: 100px;
+   height: 40px;
+   font-weight: bold;
+   background-color:rgb(30, 175, 73);
+   font-family:'Courier New', Courier, monospace;
+   font-size: 1rem;
+   border: :none;
+   border-radius: 10px;
+   box-shadow: 0 0 8px 0;
+}
+.btnInput:hover{
+   background-color: rgb(29, 161, 223);
+   color: whitesmoke;
+}
+.output{
+   box-sizing:border-box;
+}
+
+.ulEl{
+   list-style-type: none;
+   padding: 0;
+}
+
+.deleteBtn{
+   background-color: rgb(30, 175, 73);
+   color: white;
+   border: none;
+   padding: 5px 10px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.deleteBtn:hover {
+   background-color: rgb(29, 161, 223);
+}
